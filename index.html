@@ -326,6 +326,7 @@
             <p>关于错误Parse error in application web.xml file at jndi:/localhost/WEB-INF/web.xml</p>
 <p>今日上午，build了一份war包后，在 Project Settings-Artifacts下不知道怎么抽风误按了 Fix，然后将一个 servlet-api 的jar包放在了 WEB_INF 下的lib中，导致项目跑步起来，google了很久还是没有解决，一直报错Parse error in application web.xml file at jndi:/localhost/WEB-INF/web.xml ，然后找了老项目的配置，发现老项目中并没有加入这个 servlet-api的 jar包。于是直接从WEB-INF 下的lib中delete了这个 jar包，然后用jrebel启动 项目，发现一切如旧，成功启动</p>
 <p>特此记录，稍后有时间探寻下背后的原理。</p>
+<p>怀有是project方面的配置出了问题。</p>
 
           
         
